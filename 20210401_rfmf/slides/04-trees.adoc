@@ -1,0 +1,35 @@
+[transition=none]
+== Chemically interpreted biological tree
+
+[.stretch]
+image::magicTree.svg[magic tree,float="center"]
+
+[transition=none]
+=== Sitosterol interpreted biological tree
+
+[.stretch]
+image::magicTree_additional_1.svg[sitosterol tree 1,float="center"]
+
+[transition=none]
+=== Sitosterol interpreted biological tree
+
+[.stretch]
+image::magicTree_additional_2.svg[sitosterol tree 2,float="center"]
+
+[transition=none]
+=== Sitosterol interpreted biological tree
+
+[.stretch]
+image::magicTree_additional_3.svg[sitosterol tree 3,float="center"]
+
+[transition=none]
+=== Sitosterol interpreted biological tree
+
+[.stretch]
+image::magicTree_additional_4.svg[sitosterol tree 4,float="center"]
+
+[transition=none]
+=== Sitosterol interpreted biological tree
+
+[.stretch]
+image::magicTree_additional_5.svg[sitosterol tree 5,float="center"]

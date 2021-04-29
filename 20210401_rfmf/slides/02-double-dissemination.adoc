@@ -1,0 +1,31 @@
+[transition=none,%notitle]
+== Double dissemination
+
+[.stretch]
+image::workflow_1.svg[workflow 1,float="center"]
+
+[transition=none]
+=== Double dissemination
+
+[.stretch]
+image::workflow_2.svg[workflow 2,float="center"]
+
+[transition=none]
+=== Double dissemination
+
+[.stretch]
+image::double_distribution.svg[double distribution,float="center"]
+
+=== LNPN
+
+[.stretch]
+++++
+<iframe src="https://lotus.naturalproducts.net/" width="1200px" height="675px" title="LNPN"/></iframe>
+++++
+
+=== Wikidata
+
+[.stretch]
+++++
+<iframe src="https://www.wikidata.org/wiki/Q60235" width="1200px" height="675px" title="Wikidata"/></iframe>
+++++

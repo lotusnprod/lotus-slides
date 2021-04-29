@@ -1,0 +1,30 @@
+= LOTUS
+:icons: font
+:imagesdir: images
+:customcss: styles/myCustomCSS.css
+:source-highlighter: highlightjs
+:revealjs_theme: white
+:revealjs_slideNumber: true
+
+A Wikidata hosted open natural products occurrences database
+
+https://lotus.naturalproducts.net/
+
+== Acknowledgments
+
+[.stretch]
+++++
+<iframe src="https://query.wikidata.org/embed.html#%23%20tool%3A%20scholia%0A%23%20List%20of%20authors%20for%20a%20work%0ASELECT%20DISTINCT%20%3Forder%20%3Facademic_age%20%3Fsubauthor%20%3Fauthor%20%3FauthorUrl%20%3FauthorDescription%20%3Forcid%20WHERE%20%7B%0A%20%20%7B%0A%20%20%20%20wd%3AQ105742243%20p%3AP50%20%3Fauthor_statement.%0A%20%20%20%20%3Fauthor_statement%20ps%3AP50%20%3Fauthor_.%0A%20%20%20%20%3Fauthor_%20rdfs%3Alabel%20%3Fauthor.%0A%20%20%20%20BIND%28REPLACE%28%3Fauthor%2C%20%22%5Ba-z%5D%2B%5B-%7C%5C%5Cs%5D%22%2C%20%22.%20%22%29%20AS%20%3Fsubauthor%29%0A%20%20%20%20FILTER%28%28LANG%28%3Fauthor%29%29%20%3D%20%22en%22%29%0A%20%20%20%20BIND%28CONCAT%28%22..%2Fauthor%2F%22%2C%20SUBSTR%28STR%28%3Fauthor_%29%2C%2032%20%29%29%20AS%20%3FauthorUrl%29%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fauthor_statement%20pq%3AP1545%20%3Forder_.%0A%20%20%20%20%20%20BIND%28xsd%3Ainteger%28%3Forder_%29%20AS%20%3Forder%29%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%20%3Fauthor_%20wdt%3AP496%20%3Forcid_.%20%7D%0A%20%20%20%20BIND%28COALESCE%28%3Forcid_%2C%20CONCAT%28%22orcid-search%2Fquick-search%2F%3FsearchQuery%3D%22%2C%20ENCODE_FOR_URI%28%3Fauthor%29%29%29%20AS%20%3Forcid%29%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fauthor_%20schema%3Adescription%20%3FauthorDescription.%0A%20%20%20%20%20%20FILTER%28%28LANG%28%3FauthorDescription%29%29%20%3D%20%22en%22%29%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20wd%3AQ105742243%20p%3AP2093%20%3Fauthorstring_statement.%0A%20%20%20%20%3Fauthorstring_statement%20ps%3AP2093%20%3Fauthor_.%0A%20%20%20%20BIND%28CONCAT%28%22UNRESOLVED%3A%20%22%2C%20%3Fauthor_%29%20AS%20%3Fauthor%29%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fauthorstring_statement%20pq%3AP1545%20%3Forder_.%0A%20%20%20%20%20%20BIND%28xsd%3Ainteger%28%3Forder_%29%20AS%20%3Forder%29%0A%20%20%20%20%7D%0A%20%20%20%20BIND%28CONCAT%28%22https%3A%2F%2Fauthor-disambiguator.toolforge.org%2Fnames_oauth.php%3Fdoit%3DLook%2Bfor%2Bauthor%26name%3D%22%2C%20ENCODE_FOR_URI%28%3Fauthor_%29%29%20AS%20%3FauthorUrl%29%0A%20%20%7D%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20SELECT%20%3Fauthor_%20%28MAX%28%3Facademic_age_%29%20AS%20%3Facademic_age%29%20WHERE%20%7B%0A%20%20%20%20%20%20wd%3AQ105742243%20wdt%3AP50%20%3Fauthor_%3B%0A%20%20%20%20%20%20%20%20wdt%3AP577%20%3Fpublication_date.%0A%20%20%20%20%20%20_%3Ab48%20wdt%3AP31%20wd%3AQ13442814%3B%0A%20%20%20%20%20%20%20%20wdt%3AP50%20%3Fauthor_%3B%0A%20%20%20%20%20%20%20%20wdt%3AP577%20%3Fother_publication_date.%0A%20%20%20%20%20%20BIND%28%28YEAR%28%3Fpublication_date%29%29%20-%20%28YEAR%28%3Fother_publication_date%29%29%20AS%20%3Facademic_age_%29%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fauthor_%0A%20%20%7D%0A%7D%0AORDER%20BY%20%28%3Forder%29" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" width="1200px" height="690px" title="Authors" ></iframe>
+++++
+
+include::slides/01-introduction.adoc[]
+
+include::slides/02-double-dissemination.adoc[]
+
+include::slides/03-queries.adoc[]
+
+include::slides/04-trees.adoc[]
+
+include::slides/05-perspectives.adoc[]
+
+include::slides/06-end.adoc[]

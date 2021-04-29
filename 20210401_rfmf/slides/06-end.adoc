@@ -1,0 +1,16 @@
+[transition=none,%notitle]
+== Thank you!
+
+// Enjoy! icon:smile[]
+
+- The preprint:
+link:https://doi.org/10.1101/2021.02.28.433265[doi.org/10.1101/2021.02.28.433265]
+
+- The website:
+link:https://lotus.naturalproducts.net[lotus.naturalproducts.net]
+
+- The repository:
+link:https://gitlab.com/lotus7[gitlab.com/lotus7]
+
+- The Wikidata project:
+link:https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products[shorturl.at/bduN5]
