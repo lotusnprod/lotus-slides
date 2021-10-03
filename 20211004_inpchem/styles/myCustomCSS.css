@@ -1,0 +1,107 @@
+/**
+ * Custom training CSS, to practise a bit the Reveal.js back-end of AsciiDoctor
+ */
+
+@import 'https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap';
+
+/* Use Google Neuton font for the text of all slides */
+.reveal {
+	font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+}
+
+/* Use Google Neuton font for the titles of all slides */
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: 'Lato', sans-serif;
+  color: #1687a7;
+  background-color: #ffffff;
+  font-size: 1.0em;
+  line-height: 1.0em;
+}
+
+/* if we want all slides to be left-aligned */
+/*.reveal p { 
+	text-align: left; 
+}*/
+
+/* Customization of the code elements on the model of DZSlides */
+.reveal section *:not(pre) > code {
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  color: #6D180B;
+  border: 1px solid #CCC;
+  background-color: #ffffff;
+  white-space: nowrap;
+  padding: 1px 3px 0;
+  font-size: 0.8em;
+  line-height: 1.0em;
+  border-radius: 4px;
+}
+
+/* a class selector, to custom some given text using the syntax "[CYAN]#some text#" */
+.CYAN {
+    color: cyan;
+}
+
+.myOrange {
+    color: #FF6A00;
+}
+
+.reveal strong
+.reveal b {
+ 	color: #BA3925; 
+ }
+
+/* To change the color of admonition block icons */
+.admonitionblock td.icon {
+  color: #BA3925;
+}
+
+.reveal .slide-number {
+  color: #1687a7; 
+  background-color: #ffffff;
+}
+
+.playback { 
+    display: none; 
+}
+
+.reveal .slides {
+  margin: 0; 
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: 0;
+}
+
+.reveal .slides>section {
+  min-height: 95%;
+}
+
+.reveal .slides>section>section {
+  min-height: 95%;
+}
+
+.reveal section img {
+  background:none;
+  border:none; 
+  box-shadow:none; 
+  display: block;
+  margin: auto;
+  height: auto;
+  width: auto;
+  max-height: 95%;
+  max-width: 100%;
+}
+
+.reveal table {
+  background:none;
+  font-size: 18px;
+  border:none; 
+  box-shadow:none; 
+  display: block;
+  margin: auto;
+  height: auto;
+  width: auto;
+  max-height: 95%;
+  max-width: 100%;
+}

@@ -1,0 +1,9 @@
+[transition=none]
+== Biologically interpreted chemical tree
+
+[.stretch]
+++++
+<iframe src="../../lotus-processor/res/html/210919_lotus_map4_2D.html" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" width="1200px" height="690px" title="Authors" ></iframe>
+++++
+
+// equivalent to https://metabo-store.nprod.net/tmap_new/

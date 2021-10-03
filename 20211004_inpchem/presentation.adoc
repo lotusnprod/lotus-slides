@@ -1,0 +1,25 @@
+= LOTUS
+:icons: font
+:imagesdir: images
+:customcss: styles/myCustomCSS.css
+:source-highlighter: highlightjs
+:revealjs_theme: white
+:revealjs_slideNumber: true
+
+The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata
+
+https://lotus.naturalproducts.net/
+
+include::slides/01-introduction.adoc[]
+
+include::slides/02-queries.adoc[]
+
+include::slides/03-trees.adoc[]
+
+include::slides/04-tmap.adoc[]
+
+include::slides/05-your-contribution.adoc[]
+
+include::slides/06-mehdi.adoc[]
+
+include::slides/07-end.adoc[]
