@@ -3,14 +3,14 @@
 
 // Enjoy! icon:smile[]
 
-- The preprint:
-link:https://doi.org/10.1101/2021.02.28.433265[doi.org/10.1101/2021.02.28.433265]
+- The manuscript:
+link:https://lotusnprod.github.io/lotus-manuscript[lotusnprod.github.io/lotus-manuscript]
 
 - The website:
 link:https://lotus.naturalproducts.net[lotus.naturalproducts.net]
 
 - The repository:
-link:https://gitlab.com/lotus7[gitlab.com/lotus7]
+link:https://github.com/lotusnprod[github.com/lotusnprod]
 
 - The Wikidata project:
 link:https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products[https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products]
