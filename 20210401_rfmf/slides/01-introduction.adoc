@@ -2,12 +2,12 @@
 == What is **LOTUS** ?
 
 [.stretch]
-image::graphicalAbstract.svg[graphical abstract,float="center"]
+image::../images/graphicalAbstract.svg[graphical abstract,float="center"]
 
 === How did we built **LOTUS** ?
 
 [.stretch]
-image::workflow_1.svg[workflow 1,float="center"]
+image::../images/workflow_1.svg[workflow 1,float="center"]
 
 [%step]
 [cols = "4*^.^,%autowidth.stretch]
@@ -31,7 +31,7 @@ Prod., 58, 459-462 (1995).
 === Why **LOTUS** for metabolomics?
 
 [.stretch]
-image::graphicalAbstract.svg[graphical abstract,float="center"]
+image::../images/graphicalAbstract.svg[graphical abstract,float="center"]
 
 [%step]
 Metabolites annotation!
@@ -39,9 +39,9 @@ Metabolites annotation!
 === _Arabidopsis_ example
 
 [.stretch]
-image::arabidopsis.svg[arabidopsis,float="center"]
+image::../images/arabidopsis.svg[arabidopsis,float="center"]
 
 === Beta-sitosterol example
 
 [.stretch]
-image::sitosterol.svg[sitosterol,float="center"]
+image::../images/sitosterol.svg[sitosterol,float="center"]

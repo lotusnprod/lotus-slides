@@ -2,19 +2,19 @@
 == Double dissemination
 
 [.stretch]
-image::workflow_1.svg[workflow 1,float="center"]
+image::../images/workflow_1.svg[workflow 1,float="center"]
 
 [transition=none]
 === Double dissemination
 
 [.stretch]
-image::workflow_2.svg[workflow 2,float="center"]
+image::../images/workflow_2.svg[workflow 2,float="center"]
 
 [transition=none]
 === Double dissemination
 
 [.stretch]
-image::double_distribution.svg[double distribution,float="center"]
+image::../images/double_distribution.svg[double distribution,float="center"]
 
 === LNPN
 

@@ -2,14 +2,14 @@
 == What is **LOTUS** ?
 
 [.stretch]
-image::graphicalAbstract.svg[graphical abstract,float="center"]
+image::../images/graphicalAbstract.svg[graphical abstract,float="center"]
 
 === _Arabidopsis_ example
 
 [.stretch]
-image::arabidopsis.svg[arabidopsis,float="center"]
+image::../images/arabidopsis.svg[arabidopsis,float="center"]
 
 === Beta-sitosterol example
 
 [.stretch]
-image::sitosterol.svg[sitosterol,float="center"]
+image::../images/sitosterol.svg[sitosterol,float="center"]

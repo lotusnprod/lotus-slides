@@ -2,18 +2,18 @@
 == Perspectives
 
 [.stretch]
-image::workflow_2.svg[workflow 2,float="center"]
+image::../images/workflow_2.svg[workflow 2,float="center"]
 
 [transition=none]
 === Perspectives
 
 [.stretch]
-image::workflow_3.svg[workflow 3,float="center"]
+image::../images/workflow_3.svg[workflow 3,float="center"]
 
 [transition=none]
 === Perspectives
 
 [.stretch]
-image::workflow_3.svg[workflow 3,float="center"]
+image::../images/workflow_3.svg[workflow 3,float="center"]
 
 We need **YOU**!

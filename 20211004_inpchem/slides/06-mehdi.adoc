@@ -1,16 +1,16 @@
 [transition=none,%notitle]
 == Data sharing made easy
 
-image::inpchem-1.svg[twitter-1,float="center"]
+image::../images/inpchem-1.svg[twitter-1,float="center"]
 
 --
 [twitter-2,step=2]
-image::inpchem-2.svg[twitter-2,float="center"]
+image::../images/inpchem-2.svg[twitter-2,float="center"]
 --
 
 --
 [twitter-3,step=3]
-image::inpchem-3.svg[twitter-3,float="center"]
+image::../images/inpchem-3.svg[twitter-3,float="center"]
 --
 
 === Live on Wikidata
