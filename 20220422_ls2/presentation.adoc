@@ -1,0 +1,9 @@
+= LOTUS
+:icons: font
+:imagesdir: images
+:customcss: styles/myCustomCSS.css
+:source-highlighter: highlightjs
+:revealjs_theme: white
+:revealjs_slideNumber: true
+
+TODO
