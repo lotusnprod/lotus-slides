@@ -29,7 +29,7 @@ jobs:
         # adoc_file_ext: .ascii # default is .adoc
         # source_dir: # default is .
         slides_build: true
-        slides_main_adoc_file: presentation
+        slides_main_adoc_file: 20210401_rfmf/presentation
         # pre_build:
         # post_build:
   
