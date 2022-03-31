@@ -11,7 +11,7 @@ The slides corresponding to the different talks given in the frame of the lotus-
 
 Each talk corresponds to a subfolder.
 
-To create a new one, simply start from an older one and everything should build easily, thanks to @bjonnh!
+To create a new one, simply start from an older one and everything should build easily, thanks to https://github.com/bjonnh[bjonnh] !
 
 == Generation of the slides
 
