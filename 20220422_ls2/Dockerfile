@@ -1,4 +1,4 @@
-FROM ruby:2.7.3
+FROM ruby:3.1.1
 
 COPY Gemfile .
 RUN gem install bundler
