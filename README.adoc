@@ -22,3 +22,18 @@ But, as a reminder, here is just the final command:
 ----
 bash build.sh
 ----
+
+== Generation of the pages
+
+If you want your presentation to be index on the https://lotusnprod.github.io/lotus-slides/[following page], then just create an additional `yourPresentation.md` file corresponding to `yourSubfolder/` where your index.html is located 
+
+Then fill it accordingly:
+
+[source,asciidoctor]
+----
+---
+title: yourPresentation
+layout: template
+filename: yourSubfolder/index.html
+--- 
+----
