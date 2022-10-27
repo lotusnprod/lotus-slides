@@ -1,3 +1,4 @@
 # ignore Bundler / JRuby files
 .bundle
 Gemfile.lock
+.DS_Store
